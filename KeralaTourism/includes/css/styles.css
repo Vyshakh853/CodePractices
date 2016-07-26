@@ -1,0 +1,153 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#firstthree{
+   margin-top: 197px;
+}
+h2,h3,h4{
+   font-family: 'Bree Serif', serif;
+   color: #001a00;
+   text-align: center;
+}
+.readmore{
+   margin-top: -10px;
+   float: right;
+   padding-right: 30px;
+   color: #20459F;
+}
+.readmore:hover{
+   font-size: 20px;
+}
+p{
+   font-size: 15px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+#keralamap{
+   height: 350px;
+   background: url('../../images/keralamap_medium.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .logo{
+      padding: 0px 0px 0px 0px;
+   }
+   #searchinput{
+      width: 200px;
+   }
+   .header{
+      padding-top: 65px;
+   }
+   h1{
+   font-family: 'Lobster', cursive;
+   color: #008000;
+   font-size: 50px;
+   margin-bottom: 0px;
+   margin-top: 27px;
+   }
+   #component{
+      padding-top: 32px;
+      margin-bottom: 0px;
+   }
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#MyCarousel{
+   margin-top: 147px;
+}
+#MyCarousel.item{
+   height: 300px;
+}
+#slide1{
+   background: url('../../images/carousel1_medium.jpg') top center no-repeat;
+}
+#slide2{
+   background: url('../../images/carousel2_medium.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/carousel3_medium.jpg') top center no-repeat;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#MyCarousel.item{
+   height: 250px;
+}
+#slide1{
+   background: url('../../images/carousel1_small.jpg') top center no-repeat;
+}
+#slide2{
+   background: url('../../images/carousel2_small.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/carousel3_small.jpg') top center no-repeat;
+}  
+#keralamap{
+   height: 250px;
+   background: url('../../images/keralamap_small.jpg') top center no-repeat;
+}
+#firstthree{
+   margin-top: 170px;
+}
+p{
+   font-size: 12px;
+}
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+#MyCarousel.item{
+   height: 400px;
+}
+#slide1{
+   background: url('../../images/carousel1_large.jpg') top center no-repeat;
+}
+#slide2{
+   background: url('../../images/carousel2_large.jpg') top center no-repeat;
+}
+#slide3{
+   background: url('../../images/carousel3_large.jpg') top center no-repeat;
+}	
+#keralamap{
+   height: 430px;
+   background: url('../../images/keralamap_large.jpg') top center no-repeat;
+}
+#firstthree{
+   margin-top: 160px;
+}
+p{
+   font-size: 18px;
+}
+}
